@@ -1,0 +1,6 @@
+vhdl work "table.vhd"
+vhdl work "ric_1seq.vhd"
+vhdl work "gest_cassaforte.vhd"
+vhdl work "contatore.vhd"
+vhdl work "Cassaforte.vhd"
+vhdl work "test_cass_finale.vhd"

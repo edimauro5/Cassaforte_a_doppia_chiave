@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-csg225-3 gest_cassaforte.ngc gest_cassaforte.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gest_cassaforte_map.ncd gest_cassaforte.ngd gest_cassaforte.pcf 
+par -w -intstyle ise -ol high -mt off gest_cassaforte_map.ncd gest_cassaforte.ncd gest_cassaforte.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gest_cassaforte.twx gest_cassaforte.ncd -o gest_cassaforte.twr gest_cassaforte.pcf 
+netgen -intstyle ise -s 3  -pcf gest_cassaforte.pcf -rpw 100 -tpw 0 -ar Structure -tm gest_cassaforte -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim gest_cassaforte.ncd gest_cassaforte_timesim.vhd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-csg225-3 gest_cassaforte.ngc gest_cassaforte.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gest_cassaforte_map.ncd gest_cassaforte.ngd gest_cassaforte.pcf 
+par -w -intstyle ise -ol high -mt off gest_cassaforte_map.ncd gest_cassaforte.ncd gest_cassaforte.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gest_cassaforte.twx gest_cassaforte.ncd -o gest_cassaforte.twr gest_cassaforte.pcf 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/gest_cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/gest_cassaforte.syr" 

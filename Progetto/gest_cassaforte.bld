@@ -1,0 +1,35 @@
+Release 14.7 ngdbuild P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -i -p xc6slx4-csg225-3 gest_cassaforte.ngc
+gest_cassaforte.ngd
+
+Reading NGO file "/home/ise/Xilinx_Project/cassaforte/gest_cassaforte.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 398512 kilobytes
+
+Writing NGD file "gest_cassaforte.ngd" ...
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   6 sec
+
+Writing NGDBUILD log file "gest_cassaforte.bld"...

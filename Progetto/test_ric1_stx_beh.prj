@@ -1,0 +1,2 @@
+vhdl isim_temp "ric_1seq.vhd"
+vhdl isim_temp "test_ric1.vhd"

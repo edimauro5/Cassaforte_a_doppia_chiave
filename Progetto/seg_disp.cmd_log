@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/seg_disp.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/seg_disp.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/ric_1bit.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/ric_1bit.syr" 

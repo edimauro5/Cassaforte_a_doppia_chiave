@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Xilinx_Project/cassafortefinale/test_cass_finale_isim_beh.exe" -prj "/home/ise/Xilinx_Project/cassafortefinale/test_cass_finale_beh.prj" "work.test_cass_finale" 

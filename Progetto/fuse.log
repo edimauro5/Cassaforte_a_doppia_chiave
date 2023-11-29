@@ -1,0 +1,32 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Xilinx_Project/cassafortefinale/test_cass_finale_isim_beh.exe -prj /home/ise/Xilinx_Project/cassafortefinale/test_cass_finale_beh.prj work.test_cass_finale 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Xilinx_Project/cassafortefinale/table.vhd" into library work
+Parsing VHDL file "/home/ise/Xilinx_Project/cassafortefinale/ric_1seq.vhd" into library work
+Parsing VHDL file "/home/ise/Xilinx_Project/cassafortefinale/gest_cassaforte.vhd" into library work
+Parsing VHDL file "/home/ise/Xilinx_Project/cassafortefinale/contatore.vhd" into library work
+Parsing VHDL file "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.vhd" into library work
+Parsing VHDL file "/home/ise/Xilinx_Project/cassafortefinale/test_cass_finale.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96908 KB
+Fuse CPU Usage: 1090 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity contatore [\contatore(10)\]
+Compiling architecture behavioral of entity ric_1seq [\ric_1seq(('0','0','1','0'))\]
+Compiling architecture behavioral of entity ric_1seq [\ric_1seq(('1','0','0','0'))\]
+Compiling architecture behavioral of entity gest_cassaforte [gest_cassaforte_default]
+Compiling architecture dataflow of entity seg_disp [seg_disp_default]
+Compiling architecture structural of entity Cassaforte [\Cassaforte(('0','0','1','0'),('...]
+Compiling architecture behavior of entity test_cass_finale
+Time Resolution for simulation is 1ps.
+Compiled 17 VHDL Units
+Built simulation executable /home/ise/Xilinx_Project/cassafortefinale/test_cass_finale_isim_beh.exe
+Fuse Memory Usage: 112128 KB
+Fuse CPU Usage: 1230 ms
+GCC CPU Usage: 370 ms

@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-csg225-3 Cassaforte.ngc Cassaforte.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cassaforte_map.ncd Cassaforte.ngd Cassaforte.pcf 
+par -w -intstyle ise -ol high -mt off Cassaforte_map.ncd Cassaforte.ncd Cassaforte.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cassaforte.twx Cassaforte.ncd -o Cassaforte.twr Cassaforte.pcf 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassaforte/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-csg225-3 Cassaforte.ngc Cassaforte.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cassaforte_map.ncd Cassaforte.ngd Cassaforte.pcf 
+par -w -intstyle ise -ol high -mt off Cassaforte_map.ncd Cassaforte.ncd Cassaforte.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cassaforte.twx Cassaforte.ncd -o Cassaforte.twr Cassaforte.pcf 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.xst" -ofn "/home/ise/Xilinx_Project/cassafortefinale/Cassaforte.syr" 

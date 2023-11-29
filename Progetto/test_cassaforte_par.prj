@@ -1,0 +1,2 @@
+vhdl work "netgen/par/gest_cassaforte_timesim.vhd"
+vhdl work "test_cassaforte.vhd"

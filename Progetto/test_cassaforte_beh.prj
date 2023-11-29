@@ -1,0 +1,4 @@
+vhdl work "ric_1seq.vhd"
+vhdl work "contatore.vhd"
+vhdl work "gest_cassaforte.vhd"
+vhdl work "test_cassaforte.vhd"
